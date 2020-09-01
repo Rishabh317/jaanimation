@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#body{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    /* background-color: green; */
+}
+#top{
+    position: absolute;
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: 35%;
+    background-color: rgb(241, 229, 229);
+    overflow: hidden;
+}
+#link{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: chartreuse; */
+    overflow: hidden;
+
+}
+.links{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    /* background-color: red; */
+    font-family: montserrat;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.links i{
+    font-size: 18px;
+    opacity: .5;
+    margin-left: 40px;
+    
+}
+.links a{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-decoration: none;
+    font-weight:bold;
+    color: rgb(90, 90, 90);
+    font-size: 13px;
+
+   /* top: 150%;  */
+    /* background-color: green; */
+}
+#line{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    height: 3px;
+    background-color: rgb(179, 182, 179);
+}
+
+#top h1{
+    font-size: 120px;
+    font-weight: 600;
+    letter-spacing: 40px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 100%;
+    left: 50.9%;
+    transform: translate(-50%,-50%);
+    /* z-index: 9999; */
+    color: #000000;
+}
+
+#bottom{
+    position: relative;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    height: 65%;
+    background-color: green;
+    overflow: hidden;
+}
+#bottom h1{
+    font-size: 120px;
+    font-weight: 600;
+    letter-spacing: 40px;
+    position: absolute;
+    bottom: 72%;
+    left: 50.9%;
+    transform: translate(-50%,-50%);
+    /* z-index: 9999; */
+    text-transform: uppercase;
+    color: #000000;
+}
+#bottom #prfl{
+    height: 50px;
+    width: 50px;
+    background-color: #d4d4d4;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0%,-50%);
+    border-radius: 50%;
+    opacity:1;
+}
+
+#body img{
+    width: 400px;
+    bottom: -20%;
+    position: absolute;
+    /* z-index: 99; */
+    left: 38%;
+
+}
